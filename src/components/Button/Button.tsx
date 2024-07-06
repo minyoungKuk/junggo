@@ -29,8 +29,8 @@ const buttonVariant = cva(
       },
     },
     compoundVariants: [
-      { intent: "primary", outline: true, className: "text-blue-500" },
-      { intent: "danger", outline: true, className: "text-red-500" },
+      { intent: "primary", outline: true, className: "!text-blue-500" },
+      { intent: "danger", outline: true, className: "!text-red-600" },
     ],
     defaultVariants: {
       intent: "primary",
